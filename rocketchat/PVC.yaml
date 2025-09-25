@@ -6,7 +6,6 @@ metadata:
   labels:
     placement: rocketchat-placement-1
 spec:
-  storageClassName: ocs-storagecluster-cephfs
   accessModes:
     - ReadWriteMany
   resources:
